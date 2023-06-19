@@ -137,6 +137,23 @@ img {
 
 }
 
+.modal-title{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    padding-top: 72px;
+    padding-right: 24px;
+    padding-left: 24px;
+    margin-bottom: 16px;
+}
+
+.modal-input{
+    
+}
+
 
 /** LOGO **/
 
