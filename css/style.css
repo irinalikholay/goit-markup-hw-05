@@ -142,17 +142,20 @@ img {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    text-align: center;
     letter-spacing: 0.02em;
+    color: color: #2E2F42;
     padding-top: 72px;
     padding-right: 24px;
     padding-left: 24px;
     margin-bottom: 16px;
 }
 
-.modal-input{
+.modal-input {
+    display: flex;
+    
     
 }
+
 
 
 /** LOGO **/
