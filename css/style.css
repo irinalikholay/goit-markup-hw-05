@@ -237,6 +237,7 @@ img {
 
 .modal-input:focus {
     border-color: #4D5AE5;
+
 }
 
 
@@ -249,8 +250,8 @@ img {
 
 }
 
-.icon-input:focus{
-    fill: #4D5AE5; 
+.modal-input:focus +.icon-input{
+    fill: #4D5AE5;
 
 }
 
@@ -304,7 +305,7 @@ img {
 
 }
 
-.input-check:checked +.check-text{
+.input-check:checked +.check-text>.check-user-privacy{ 
     background-color: var(--passed-state-color);
     border:none; 
     fill:var(--light-color);
@@ -317,6 +318,8 @@ img {
 
 .modal-send-button{
     display: block;
+    margin-right: auto;
+    margin-left: auto;
     min-width: 169px;
     height: 56px;
     font-family: "Roboto", sans-serif ;
