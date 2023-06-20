@@ -304,9 +304,9 @@ img {
 
 }
 
-.input-check:checked{
+.input-check:checked +.check-text{
     background-color: var(--passed-state-color);
-    border: none; 
+    border:none; 
     fill:var(--light-color);
 
 }
